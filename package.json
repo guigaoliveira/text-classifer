@@ -1,7 +1,7 @@
 {
   "name": "text-classifer",
   "version": "1.0.0",
-  "description": "Navie Bayes text classifier in Javascript ",
+  "description": "Navie Bayes text classifier in Javascript",
   "main": "index.js",
   "scripts": {
     "start": "nodemon example.js --exec babel-node --presets=latest",
