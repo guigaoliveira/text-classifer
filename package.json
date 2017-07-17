@@ -1,0 +1,28 @@
+{
+  "name": "text-classifer",
+  "version": "1.0.0",
+  "description": "Navie Bayes text classifier in Javascript ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon example.js --exec babel-node --presets=latest",
+    "build:source": "babel --presets=latest -d dist/ src/",
+    "build": "npm run build:source"
+  },
+  "keywords": [
+    "navier",
+    "bayes",
+    "machine",
+    "learning",
+    "text",
+    "classifier"
+  ],
+  "author": "Guilherme Matheus Borges de Oliveira",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
